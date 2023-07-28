@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Recipe App</h1>
+        <div>
+          <button id="fav-btn">
+            <span>Favourite </span
+            ><i class="fa-solid fa-heart" style="color: red"></i>
+          </button>
+        </div>
+        <form>
+          <input
+            type="text"
+            placeholder="Search for Recipe..."
+            class="searchBox"
+          />
+          <button type="submit" class="searchBtn">Search</button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="recipe-container">
+          <h2>Search your favorite recipes...</h2>
+        </div>
+        <div class="recipe_details">
+          <button type="button" class="recipe-close-btn">
+            <i class="fa-sharp fa-solid fa-xmark"></i>
+          </button>
+          <div class="recipe-details-content"></div>
+        </div>
+      </section>
+
+      <div id="favDivContainer"></div>
+    </main>
+    <script
+      src="https://kit.fontawesome.com/cbb1cd7957.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
